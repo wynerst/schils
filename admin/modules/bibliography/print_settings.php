@@ -61,7 +61,7 @@ if (isset($_GET['type'])) {
   $type = trim($_GET['type']);
 }
 
-if (!in_array($type, array('barcode', 'label', 'membercard'))) {
+if (!in_array($type, array('barcode', 'label', 'membercard', 'freeloan', 'pocket'))) {
   $type = 'barcode';
 }
 

@@ -269,3 +269,8 @@ $bookslip_cut_title = 36; // banyak nya karakter yang tercetak pada judul buku. 
 $bookslip_cut_authors = 36; // banyak nya karakter yang tercetak pada nama pengarang buku. ubah 0 jika nama tidak terpotong
 $bookslip_fonts = "Arial, Verdana, Helvetica, 'Trebuchet MS'"; // font yang digunakan
 $bookslip_number_row = 50; // jumlah baris kosong pada kartu buku
+
+// Pocket Book By Drajat Hasan
+$sysconf['print']['pocket']['items_per_row'] = 2;
+$sysconf['print']['pocket']['libraryname'] = "Senayan Library";
+$sysconf['print']['pocket']['schoolname'] = "SMA Maju Jaya";

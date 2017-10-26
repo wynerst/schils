@@ -69,6 +69,12 @@ if (isset($_GET['p']))
     'visitor'   => array('url'  => 'index.php?p=visitor',
       'text' => __('Visitor')
       ),
+    'Saran Kritik'   => array('url'  => 'index.php?p=suggestion_box',
+      'text' => __('Kotak Saran Kritik')
+      ),  
+    'usulbuku'   => array('url'  => 'index.php?p=usulbuku',
+      'text' => __('Usul Buku')
+      ),  
     'login'   => array('url'  => 'index.php?p=login',
       'text' => __('Librarian LOGIN')
       )

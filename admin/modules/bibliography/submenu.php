@@ -38,6 +38,7 @@ $menu[] = array('Header', __('Tools'));
 $menu[] = array(__('Label Barcodes'), MWB.'bibliography/label_barcode_generator.php', __('Print Label Barcode'));
 $menu[] = array(__('Label Barcodes Warna'), MWB.'bibliography/label_barcode_generator_warna.php', __('Print Label Barcode Warna'));
 $menu[] = array(__('Labels Printing'), MWB.'bibliography/dl_print.php', __('Print Document Labels'));
+$menu[] = array(__('Book Pocket'), MWB.'bibliography/book_pocket.php', __('Print Book Pocket'));
 $menu[] = array(__('Item Barcodes Printing'), MWB.'bibliography/item_barcode_generator.php', __('Print Item Barcodes'));
 $menu[] = array(__('Catalog Printing'), MWB.'bibliography/printed_card.php', __('Print Catalog Card'));
 $menu[] = array(__('Cetak Kartu Buku'), MWB.'bibliography/kartu_buku.php', __('Cetak Kartu Buku'));
