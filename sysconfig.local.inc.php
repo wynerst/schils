@@ -30,9 +30,9 @@ if (!defined('INDEX_AUTH')) {
 /* LOCAL DATABASE CONNECTION config */
 // database constant
 // change below setting according to your database configuration
-define('DB_NAME', 'schils00');
+define('DB_NAME', 'db_schils');
 define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'wardi1270');
 
 // define any other sysconfig variables below
 $sysconf['index']['type'] = 'default';

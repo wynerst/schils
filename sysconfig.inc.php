@@ -56,7 +56,7 @@ if ((bool) ini_get('safe_mode')) {
 @date_default_timezone_set('Asia/Jakarta');
 
 // senayan version
-define('SENAYAN_VERSION', 'SLiMS 7 (Cendana)');
+define('SENAYAN_VERSION', 'SchILS 0.2 - School Integrated Library System');
 
 // senayan session cookies name
 define('COOKIES_NAME', 'SenayanAdmin');
