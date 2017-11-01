@@ -41,7 +41,7 @@ if ($sysconf['https_enable']) {
 }
 
 // page title
-$page_title = $sysconf['library_name'].' :: Library Automation System';
+$page_title = $sysconf['library_name'] . ' - ' . $sysconf['library_subname'];
 // main menu
 $module = new module();
 $module->setModulesDir(MDLBS);

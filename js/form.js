@@ -32,7 +32,7 @@ var ajaxCheckID = function(str_handler_file, str_table_name, str_ID_fields, str_
     additionalParams = '&id=' + inputVal;
   } else {
     $('#'+str_container_ID).html('<strong style="color: #f00;">Please supply valid ID!</strong>');
-    inputEl.css('background-color','#fc0');
+    inputEl.css('background-color','#FF9D97');
     return;
   }
   // fill the select list

@@ -530,7 +530,7 @@ if (isset($_POST['memberID']) OR isset($_SESSION['memberID'])) {
         }
         echo '</table>'."\n";
         // tab and iframe
-				echo '<ul class="nav nav-tabs nav-justified circ-action-btn">';
+				echo '<ul class="nav nav-tabs circ-action-btn">';
         echo '<li><a accesskey="L" class="tab notAJAX" href="'.MWB.'circulation/loan.php" target="listsFrame">'.__('Loans').' (L)</a></li>';
         echo '<li class="active"><a accesskey="C" class="tab notAJAX" href="'.MWB.'circulation/loan_list.php" target="listsFrame">'.__('Current Loans').' (C)</a></li>';
         if ($member_type_d['enable_reserve']) {

@@ -267,7 +267,7 @@ if (isset($_GET['action']) AND $_GET['action'] == 'print') {
     </div>
 	<div class="sub_section">
 		<div class="btn-group">
-		<a target="blindSubmit" href="<?php echo MWB; ?>membership/member_card_generator.php?action=clear" class="notAJAX btn btn-default" style="color: #f00;"><i class="glyphicon glyphicon-trash"></i>&nbsp;<?php echo __('Clear Print Queue'); ?></a>
+		<a target="blindSubmit" href="<?php echo MWB; ?>membership/member_card_generator.php?action=clear" class="notAJAX btn btn-danger"><i class="glyphicon glyphicon-trash"></i>&nbsp;<?php echo __('Clear Print Queue'); ?></a>
 		<a target="blindSubmit" href="<?php echo MWB; ?>membership/member_card_generator.php?action=print" class="notAJAX btn btn-default"><i class="glyphicon glyphicon-print"></i>&nbsp;<?php echo __('Print Member Cards for Selected Data'); ?></a>
 		<a href="<?php echo MWB; ?>bibliography/pop_print_settings.php?type=membercard" class="notAJAX btn btn-default openPopUp" title="<?php echo __('Member card print settings'); ?>"><i class="glyphicon glyphicon-wrench"></i></a>
     </div>

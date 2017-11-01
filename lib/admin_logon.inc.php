@@ -83,6 +83,12 @@ class admin_logon
         $_SESSION['uid'] = $this->user_info['user_id'];
         $_SESSION['uname'] = $this->user_info['username'];
         $_SESSION['realname'] = $this->user_info['realname'];
+        //modified by Eddy Subratha
+        if (!empty($this->user_info['user_image'])) {
+            $_SESSION['upict'] = $this->user_info['user_image'];                    
+        } else {
+            $_SESSION['upict'] = 'person.png';        
+        }
         if (!empty($this->user_info['groups'])) {
             $_SESSION['groups'] = @unserialize($this->user_info['groups']);
             // fetch group privileges

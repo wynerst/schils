@@ -64,7 +64,7 @@ function confirmProcess(intReserveID, strTitle)
 <!--reserve specific javascript functions end-->
 
 <!--item loan form-->
-<div style="padding: 5px; background-color: #ccc;">
+<div>
     <form name="reserveForm" id="search" action="circulation_action.php" method="post" style="display: inline;">
         <?php echo __('Search Collection'); ?> :<br />
         <?php

@@ -163,15 +163,15 @@ if (isset($_POST['confirmFinish'])) {
 	<div class="per_title">
 	    <h2><?php echo __('Finish Stock Take'); ?></h2>
   </div>
-	<div class="infoBox">
-    <span class="important"><?php echo __('Are you sure to end current stock take proccess? Once it finished there is no way you can rollback this stock take'); ?></span>
+<div class="infoBox">
+    <span class="important"><?php echo __('Are you sure to end current stock take proccess ?<br>Once it finished there is no way you can rollback this stock take'); ?></span>
   </div>
 </div>
 </fieldset>
 <?php
     // create new instance
     $form = new simbio_form_table_AJAX('stockTakeForm', $_SERVER['PHP_SELF'], 'post');
-    $form->submit_button_attr = 'value="'.__('Finish Stock Take').'" class="button btn btn-delete btn-danger"';
+    $form->submit_button_attr = 'value="'.__('Finish Stock Take').'" class="btn btn-danger"';
 
     // form table attributes
     $form->table_attr = 'align="center" id="dataList" cellpadding="5" cellspacing="0"';

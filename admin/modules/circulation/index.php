@@ -59,7 +59,7 @@ if (isset($_SESSION['memberID']) AND !empty($_SESSION['memberID'])) {
     </div>
     <div class="sub_section">
 	    <div class="action_button">
-		    <?php echo __('CIRCULATION - Insert a member ID to start transaction with keyboard or barcode reader'); ?>
+		    <?php echo __('Insert a member ID to start transaction with keyboard or barcode reader'); ?>
 	    </div>
       <form id="startCirc" action="<?php echo MWB; ?>circulation/circulation_action.php" method="post" style="display: inline;">
       <?php echo __('Member ID'); ?> :

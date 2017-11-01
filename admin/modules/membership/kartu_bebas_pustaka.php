@@ -254,7 +254,7 @@ if (isset($_GET['action']) AND $_GET['action'] == 'print') {
     </div>
 	<div class="sub_section">
 		<div class="btn-group">
-		<a target="blindSubmit" href="<?php echo MWB; ?>membership/kartu_bebas_pustaka.php?action=clear" class="notAJAX btn btn-default" style="color: #f00;"><i class="glyphicon glyphicon-trash"></i>&nbsp;<?php echo __('Clear Print Queue'); ?></a>
+		<a target="blindSubmit" href="<?php echo MWB; ?>membership/kartu_bebas_pustaka.php?action=clear" class="notAJAX btn btn-danger"><i class="glyphicon glyphicon-trash"></i>&nbsp;<?php echo __('Clear Print Queue'); ?></a>
 		<a target="blindSubmit" href="<?php echo MWB; ?>membership/kartu_bebas_pustaka.php?action=print" class="notAJAX btn btn-default"><i class="glyphicon glyphicon-print"></i>&nbsp;<?php echo __('Cetak Kartu Bebas Pustaka'); ?></a>
     </div>
 	    <form name="search" action="<?php echo MWB; ?>membership/kartu_bebas_pustaka.php" id="search" method="get" style="display: inline;"><?php echo __('Search'); ?>:

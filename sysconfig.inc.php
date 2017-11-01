@@ -56,7 +56,7 @@ if ((bool) ini_get('safe_mode')) {
 @date_default_timezone_set('Asia/Jakarta');
 
 // senayan version
-define('SENAYAN_VERSION', 'SchILS 0.2 - School Integrated Library System');
+define('SENAYAN_VERSION', 'SchILS 0.2');
 
 // senayan session cookies name
 define('COOKIES_NAME', 'SenayanAdmin');
@@ -325,7 +325,7 @@ $sysconf['reserve_expire_periode'] = 7;
 /* CONTENT */
 $sysconf['library_name'] = 'Senayan';
 $sysconf['library_subname'] = 'Open Source Library Management System';
-$sysconf['page_footer'] = ' <strong>SENAYAN Library Automation System (SLiMS)</strong> - SLiMS Developer Community - Released Under GNU GPL License';
+$sysconf['page_footer'] = 'School Integrated Library System';
 
 /* HTTPS Setting */
 $sysconf['https_enable'] = false;
