@@ -122,14 +122,29 @@ a.logout {
 }
 
 #sidepan {
-  padding-top: 25px;
+  padding-top: 30px;
   position: fixed;
   top: 63px;
   width: 225px;
   bottom: 0;
   overflow: auto;
-  background: #f6f6f6;
+  background: #313942;
   z-index: 0;
+}
+
+#sidepan:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 225px;
+  height: 960px;
+  background: transparent url(media/bg.jpg) center center no-repeat;
+  background-size: cover cover;
+  z-index: 0;
+  opacity: 0.05;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 
 @media (min-width: 960px) and (max-width: 1024px) {
@@ -147,20 +162,21 @@ a.logout {
   padding: 7px 15px;
   position: relative;
   text-decoration: none;
-  color: #666;
-  widows: 230px;
+  color: #fff;
+  width: 230px;
 }
 
 #sidepan .subMenuItem:first-child,
 #sidepan a:hover,
 .curModuleLink {
-  background-color: #aaa !important;
-  color: #fff !important;
+  background-color: #fff !important;
+  color: #009CDF !important;
 }
 
 #sidepan div {
   text-transform: uppercase;
-  color: #000;
+  color: #fc0;
+  font-weight: bold;
 }
 
 #mainContent {
@@ -339,16 +355,17 @@ input[type="button"]:not(.btn):hover,
 .s-export .button,
 .btn-group .btn-default {
   color:#fff;
-  background: #000d84;
-  border-color:#000d84;
+  background: #313942;
+  border-color:#313942;
+  transition: all .25s ease;
 }
 
 .printReport:hover,
 .s-export .button:hover,
 .btn-group .btn-default:hover {
     color: #fff;
-    background: #3586e1;
-    border-color: #3586e1;
+    background: #000;
+    border-color: #000;
 }
 
 .btn-default[style="color: #FF0000;"] {
@@ -419,8 +436,7 @@ tr.dataListHeader td {
   text-transform: uppercase !important;
 }
 
-#mainForm > table,
-.infoBox {
+#mainForm > table {
   border-top: solid 1px #eee;
 }
 
@@ -979,6 +995,7 @@ footer {
 }
 
 .s-user-photo {
+  position: relative;
   border: solid 3px #666;
   border-radius: 50px;
   overflow: hidden;
@@ -986,10 +1003,16 @@ footer {
   width: 35px;
   height: 35px;
   text-align: center;
+  transition: all .5s ease;
 }
+
 
 .s-user-photo img {
   width: 100%;
+}
+
+.s-user-photo:hover {
+  margin-top: -3px;
 }
 
 .s-user-name {
@@ -1333,6 +1356,24 @@ td > a.notAJAX {
     color: #009CDF;
 }
 
+.notAJAX {
+    color: #fff !important;
+}
+
 #stockTakeForm {
   padding: 15px;
+}
+
+.small_input {
+  width: 110px;
+}
+
+.social-label {
+  float: left;
+  width: 217px;
+  padding-top: 15px;
+}
+
+.social-form input {
+  margin-top: 5px;
 }
