@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Arimo|Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Nunito|Montserrat');
 @import url('bootstrap.min.css');
 @import url('font-awesome.min.css');
 /*------------------
 Local Reset
 --------------------*/
 body {
-  font: 10pt/1.8 'Montserrat', sans-serif;
+  font: 10pt/1.8 'Nunito', sans-serif;
   background: #fff;
   color:#000;
 }
@@ -128,7 +128,7 @@ a.logout {
   width: 225px;
   bottom: 0;
   overflow: auto;
-  background: #313942;
+  background-color: #176292;
   z-index: 0;
 }
 
@@ -347,16 +347,16 @@ input[type="button"]:not(.btn):hover,
 .openPopUp:hover,
 .btn-default:hover {
   color:#fff;
-  background:#313942;
-  border-color:#313942;
+  background:#176292;
+  border-color:#176292;
 }
 
 .printReport,
 .s-export .button,
 .btn-group .btn-default {
   color:#fff;
-  background: #313942;
-  border-color:#313942;
+  background: #176292;
+  border-color:#176292;
   transition: all .25s ease;
 }
 
@@ -530,7 +530,7 @@ iframe {
 }
 
 .authors {
-  font-family: 'Arimo', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 10pt;
   color: #999;
 }
