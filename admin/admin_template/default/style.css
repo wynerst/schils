@@ -5,7 +5,7 @@
 Local Reset
 --------------------*/
 body {
-  font: 10pt/1.8 'Nunito', sans-serif;
+  font: 12pt/1.8 'Nunito', sans-serif;
   background: #fff;
   color:#000;
 }
@@ -29,6 +29,11 @@ a:focus {
 
 img {
   border: 0;
+}
+
+input:focus,
+textarea:focus {
+  border-color: blue !important;
 }
 
 #header .s-user {
@@ -524,9 +529,10 @@ iframe {
 .tooltipsy {
   padding: 10px;
   max-width: 200px;
-  color: #303030;
-  background-color: #eee;
+  color: #fff;
+  background-color: #3dc4e4;
   border-radius: 3px;
+  box-shadow: 0 0 10px #999;
 }
 
 .authors {
@@ -1357,7 +1363,14 @@ td > a.notAJAX {
 }
 
 .notAJAX {
+    background-color: #276897;
+    border-color: #276897;
     color: #fff !important;
+}
+
+.notAJAX:hover {
+    background-color: #000;
+    border-color: #000;
 }
 
 #stockTakeForm {
